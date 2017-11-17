@@ -1,8 +1,8 @@
 # Outputs the reading time, as a number
- 
+
 # Read this in "about 4 minutes"
 # Usage: Read this in {{ page.content | reading_time_as_i }}
- 
+
 WORD_PER_MINUTE = 180
 
 def calculate_time( input )
@@ -22,10 +22,10 @@ module ReadingTimeFilterAsInteger
 end
 
 # Outputs the reading time, as a string
- 
+
 # Read this in "about four minutes"
 # Usage: Read this in {{ page.content | reading_time_as_s }}
- 
+
 module ReadingTimeFilterAsString
   def reading_time_as_s( input )
     minutes, minutes_label = calculate_time(input)
@@ -45,5 +45,5 @@ module ReadingTimeFilterAsString
     minutes > 0 ? "#{minutes_s} #{minutes_label}" : "less than one minute"
   end
 
-  Liquid::Template.register_filter(ReadingTimeFilterAsString)
+  # Liquid::Template.register_filter(ReadingTimeFilterAsString)
 end
