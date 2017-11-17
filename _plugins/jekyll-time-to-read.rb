@@ -45,5 +45,5 @@ module ReadingTimeFilterAsString
     minutes > 0 ? "#{minutes_s} #{minutes_label}" : "less than one minute"
   end
 
-  # Liquid::Template.register_filter(ReadingTimeFilterAsString)
+  Liquid::Template.register_filter(ReadingTimeFilterAsString)
 end

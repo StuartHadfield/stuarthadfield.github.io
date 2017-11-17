@@ -22,7 +22,7 @@ A responsive design concept applied to every aspect of the theme ensures that it
 
 ### Subtile Animations
 
-Smooth and particularly *barely noticable animations reveal contents in a beautiful way* while scrolling down the page. A feature which is not necessarily required for obvious reasons, but it surely improves the experience a little further.
+Smooth and particularly *barely noticeable animations reveal contents in a beautiful way* while scrolling down the page. A feature which is not necessarily required for obvious reasons, but it surely improves the experience a little further.
 
 ### Retina Ready
 
