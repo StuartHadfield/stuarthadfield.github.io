@@ -1,9 +1,9 @@
 # Site Settings
 baseurl: 		""
-title: 			Hashtag for Jekyll
+title: 			Stuart Hadfield
 
-name: 			Hashtag <i>for</i> Jekyll
-description: 	A beautifully contemporary and elegant Jekyll theme
+name: 			Stuart Hadfield's <i>GitHub Pages</i> Website
+description: 	A short view into who I am and what I think about things.
 url: 			"http://github.com/stuarthadfield"
 
 paginate: 		3
@@ -15,7 +15,7 @@ email: 			hello@stuart.come
 disqus: 		your_disqus_shortname
 analytics: 		UA-XXXXXXX-Y
 
-copyright: 		Copyright 2014 Indiqo.
+copyright: 		2017.
 
 # Build Settings
 permalinks: 	pretty

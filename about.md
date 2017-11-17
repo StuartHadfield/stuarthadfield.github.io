@@ -82,7 +82,7 @@ print_hi('Tom')
 
 ### Much More
 
-Those features above are just the tip of the iceberg and there's much more included. 
+Those features above are just the tip of the iceberg and there's much more included.
 
 Things like support for **Google Analytics & Web Fonts**, advanced **pagination** on overview pages, a custom **teaser of the next article** at the bottom of each post, **Twitter Cards & Facebook Open Graph** tags dynamically generated, multiple page types, etc.
 
