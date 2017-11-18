@@ -16,7 +16,16 @@
 
 		<div class="excerpt">
 
-			<span class="title">{{ teaser.content | reading_time_as_i }}</span>
+			<span class="title">Read this in
+				{% assign words = teaser.content | number_of_words %}
+				{% if words < 180 %}
+					less than 1 minute
+				{% elsif words < 360 %}
+					1 minute
+				{% else %}
+					{{ words | divided_by:180 }} minutes
+				{% endif %}
+			</span>
 
 			{% if teaser.title %}
 				<h1><a href="{{ teaser.url | prepend: site.baseurl }}" title="{{ teaser.title }}">{{ teaser.title }}</a></h1>

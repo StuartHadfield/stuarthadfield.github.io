@@ -15,7 +15,16 @@
           {% endif %}
 
           {% if post.url %}
-            <a href="{{ post.url }}" title="Read Post" class="icon image">Read this in {{ post.content | reading_time_as_i }}</a>
+            <a href="{{ post.url }}" title="Read Post" class="icon image">Read this in
+              {% assign words = post.content | number_of_words %}
+          		{% if words < 180 %}
+          	    less than 1 minute
+          	  {% elsif words < 360 %}
+          	    1 minute
+          	  {% else %}
+          	    {{ words | divided_by:180 }} minutes
+          	  {% endif %}
+            </a>
           {% endif %}
 
         </div>
