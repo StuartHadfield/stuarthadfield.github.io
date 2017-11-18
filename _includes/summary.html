@@ -15,7 +15,7 @@
           {% endif %}
 
           {% if post.url %}
-            <a href="{{ post.url }}" title="Read Post" class="icon image">{{ reading_time_as_i | post.content }}</a>
+            <a href="{{ post.url }}" title="Read Post" class="icon image">Read this in {{ post.content | reading_time_as_i }}</a>
           {% endif %}
 
         </div>

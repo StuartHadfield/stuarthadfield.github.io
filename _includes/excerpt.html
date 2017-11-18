@@ -2,7 +2,7 @@
 
 <div class="excerpt">
 
-	<span class="title">{{ reading_time_as_i | 'Excerpt' }}</span>
+	<span class="title">Read this in {{ page.content | reading_time_as_i }}</span>
 
 	{% if page.title %}
 
