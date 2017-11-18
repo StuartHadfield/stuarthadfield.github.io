@@ -5,7 +5,7 @@ title:  		Who am I?
 type:			page
 navigation: 	true
 
-date:   		2014-05-08
+date:   		2017-11-17
 excerpt: 		I don't suspect anyone will read this, but if you wish to know a bit about me and my background, this is where you can find it.
 gradient: 		2
 image: 			header-2.jpg
