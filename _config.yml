@@ -12,7 +12,7 @@ paginate_path: 	"blog/page:num"
 twitter: 		stuartcodes
 email: 			hello@stuart.come
 
-disqus: 		your_disqus_shortname
+disqus: 		stuarthadfield-github-io
 analytics: 		UA-XXXXXXX-Y
 
 copyright: 		Stuart Hadfield 2017.

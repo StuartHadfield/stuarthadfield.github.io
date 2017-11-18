@@ -16,13 +16,13 @@
 
 		<div class="excerpt">
 
-			<span class="title">{{ teaser.content }}</span>
+			<span class="title">{{ teaser.title }}</span>
 
 			{% if teaser.title %}
 				<h1><a href="{{ teaser.url | prepend: site.baseurl }}" title="{{ teaser.title }}">{{ teaser.title }}</a></h1>
 			{% endif %}
 
-			<p>{{ teaser.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+			<p>{{ teaser.excerpt }}</p>
 
 			{% if teaser.date or teaser.categories %}
 				<span class="meta">Published {{ teaser.date | date: '%b %-d, %Y' | prepend: '<b>' | append: '</b>' }} {{ teaser.categories | join: ', ' | prepend: 'in <b>' | append: '</b>' }}</span>
