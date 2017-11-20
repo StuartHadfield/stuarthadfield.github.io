@@ -10,10 +10,10 @@ paginate: 		3
 paginate_path: 	"blog/page:num"
 
 twitter: 		stuartcodes
-email: 			hello@stuart.come
+email: 			hello@stuart.com
 
 disqus: 		stuarthadfield-github-io
-analytics: 		UA-XXXXXXX-Y
+analytics: 		UA-109834873-1
 
 copyright: 		Stuart Hadfield 2017.
 
