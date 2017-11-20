@@ -29,7 +29,7 @@ Okay, no one *actually* talks like that.  But, the long, salt and sun stained ha
 
 Just look at this guy:
 
-{% include media-youtube.html file="https://www.youtube.com/watch?v=bB3UKSy6Et0" title="You get the best barrels ever dude" caption="After that you just drop in, ride the barrel, get so pitted like that" %}
+{% include media-youtube.html file="http://www.youtube.com/watch?v=bB3UKSy6Et0" title="You get the best barrels ever dude" caption="After that you just drop in, ride the barrel, get so pitted like that" %}
 
 Okay, not true, developing software doesn't **really** stereotypically epitomize "chill" and "cool".  You may be asking, *"Stu, where are you even going with this?"*.  The point is not what each represents, but what people strive to be.  
 
@@ -49,7 +49,7 @@ Now, I may just be a slow learner with no real knack for the sport, because I've
 
 So, how does this relate to software development?  Well, in the same way that many people aspire to that surfer aesthetic, despite having no real knowledge of how difficult or tiresome or even unpleasant it sometimes is, everybody nowadays wants to talk AI.  Everybody wants to talk ML.  Everybody wants to talk blockchain.  Every other person wants to combine all of these to propose a new AI-based-blockchain-solution-mobile-app that will make them a billionaire.  The tech scene is exciting, and the privilege of being deeply involved in it is exciting too.  
 
-But, it's hard. I've been messing around on computers for a long time, I've done the four year courses, the subjects in school, and there are still things that have me falling down - of course.  Sometimes this gets me discouraged, but then I look at some of the greats in the industry, and realise, even they make mistakes and have to learn something new every day.
+But, it's hard. I've been messing around on computers for a long time, I've done the four year courses, the subjects in school, and there are still things that have me falling down - of course.  Sometimes this gets me discouraged, but then I look at some of the greats in the industry, and realise, even they make mistakes and often have to learn something new every day.
 
 
 {% highlight ruby %}
@@ -64,6 +64,6 @@ end
 
 {% endhighlight %}
 
-The tech industry moves beneath us, just like the wave moves beneath your board.  So many people want to paddle onto the tech waves, with new sets rolling in every 2 to 3 years, but so many have done a 3 week bootcamp and get sold this dream that they're now Linus Torvalds.  Eventually, it clicks - the water out here can be cold and rough, and you spend a lot of time falling over before you learn to design effective problems. The outside appeal you see presented at conferences for new ML-based solutions isn't always the reality you'll experience, just like watching the WSL highlights isn't exactly what a Sunday morning at Muizenburg will be like for you.  In the same way almost anyone can stand on a 10ft board on the foamies, almost anyone can write hello world in Python, but not everyone can take on Nazaré when it's firing, and not everyone can solve massive real world problems with code.
+The tech industry moves beneath us, just like the wave moves beneath your board.  So many people want to paddle onto the tech waves, with new sets rolling in every 2 to 3 years, but so many have done a 3 week bootcamp and get sold this dream that they're now Linus Torvalds.  Eventually, it clicks - the water out here can be cold and rough, and you spend a lot of time falling over before you learn to design effective solutions to problems. The appealing industry you see presented at conferences for new ML-based solutions isn't always the reality you'll experience, just like watching the WSL highlights isn't exactly what a Sunday morning at Muizenburg will be like.  In the same way almost anyone can stand on a 10ft board on the foamies, almost anyone can write hello world in Python.  Not everyone, however, can take on Nazaré when it's firing, and not everyone can solve massive real world problems with code.
 
 The software industry moves fast, and being an effective developer in the industry will be a never-ending journey as such, as it is with becoming a great surfer.  If there's anything I've learnt, it's that no matter how many times you fall off your board, no matter how often you find yourself gasping for air, when you finally get that system right, and you're swallowed into the cerulean bliss and serenity of the barrel, you'll find yourself filing that memory under the section, *"coolest experiences ever"*.
