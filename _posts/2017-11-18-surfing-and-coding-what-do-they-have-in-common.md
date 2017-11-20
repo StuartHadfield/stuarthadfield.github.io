@@ -29,7 +29,7 @@ Okay, no one *actually* talks like that.  But, the long, salt and sun stained ha
 
 Just look at this guy:
 
-{% include media-youtube.html file="http://www.youtube.com/watch?v=bB3UKSy6Et0" title="You get the best barrels ever dude" caption="After that you just drop in, ride the barrel, get so pitted like that" %}
+{% include media-youtube.html file="https://www.youtube.com/watch?v=bB3UKSy6Et0" title="You get the best barrels ever dude" caption="After that you just drop in, ride the barrel, get so pitted like that" %}
 
 Okay, not true, developing software doesn't **really** stereotypically epitomize "chill" and "cool".  You may be asking, *"Stu, where are you even going with this?"*.  The point is not what each represents, but what people strive to be.  
 
