@@ -1,0 +1,21 @@
+---
+
+layout:			default
+title:  		Surfing and coding, what do they have in common?
+type:			post
+navigation: 	false
+
+date:   		2017-11-31
+excerpt: 		<i>Just give me my damn coffee</i>, with Robbibot.
+categories:		posts
+gradient: 		2
+image: 			surf.jpg
+details:		true
+
+author: 		Stuart Hadfield
+bio: 			  A Zimbabwe-born, South Africa-raised Software Developer, living in Cape Town. My views are my own.
+twitter: 		"http://twitter.com/stuartcodes"
+linkedin: 	"https://za.linkedin.com/in/stuarthadfield"
+github:     "https://github.com/stuarthadfield"
+
+---
