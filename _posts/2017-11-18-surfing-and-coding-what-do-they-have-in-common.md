@@ -58,7 +58,7 @@ But, it's hard. I've been messing around on computers for a long time, I've done
 
 def how_to_success
   while !success do
-    self.is_dead? : break ? try_again
+    self.is_dead? ? break : try_again
   end
 end
 
